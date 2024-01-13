@@ -1,3 +1,5 @@
+import { Data } from "../Data.js";
+
 export const Main = () => {
   return (
     <div>
