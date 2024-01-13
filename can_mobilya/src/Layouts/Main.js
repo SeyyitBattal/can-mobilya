@@ -3,7 +3,9 @@ import { Data } from "../Data.js";
 export const Main = () => {
   return (
     <div>
-      <p>Main Area</p>
+      <div className="mt-[-50px]">
+        <img src={Data.bodySection.mainWallpaper} className="w-full" />
+      </div>
     </div>
   );
 };

@@ -4,6 +4,7 @@
 /*
 TO DO LIST: 
 - Tailwindten headera navigation bar eklenecek
+- Tıklandığında Whatsapp iletişim açılacak
 - 
 */
 
@@ -12,7 +13,7 @@ import { Helmet } from "react-helmet";
 import { Header } from "./Layouts/Header";
 import { Main } from "./Layouts/Main";
 import { Footer } from "./Layouts/Footer";
-import logo from "./Data/can-mobilya-logo.jpg";
+import logo from "./Photos/can-mobilya-logo.jpg";
 
 function App() {
   return (
