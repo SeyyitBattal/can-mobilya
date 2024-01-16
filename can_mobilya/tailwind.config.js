@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ubuntu: ["Ubuntu", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
+        merriweather: ["Merriweather", "serif"],
+        quicksand: ["Quicksand", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

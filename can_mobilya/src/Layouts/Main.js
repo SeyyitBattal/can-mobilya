@@ -2,37 +2,34 @@ import React from "react";
 import { Data } from "../Data.js";
 
 export const Main = () => {
-  const containerStyle = {
-    position: "relative",
-  };
-
-  const textContainerStyle = {
-    position: "absolute",
-    top: "25%",
-    left: "25%",
-    transform: "translate(-50%, -50%)",
-    textAlign: "left",
-  };
-
-  const textStyle = {
-    fontSize: "8rem",
-    fontFamily: "Segoe UI Emoji",
-    fontWeight: "bold",
-    lineHeight: "2.0",
-    textShadow: "1px 12px 0px rgba(0, 0, 0, 0.8)",
-  };
-
   return (
-    <div style={containerStyle}>
-      <div className="mt-[-50px] relative">
+    <div className="">
+      <img
+        src={Data.bodySection.mainWallpaper}
+        className="w-full"
+        alt="Main Wallpaper"
+      />
+      <div className="absolute top-1/2 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
+        <p className="text-amber-800 text-9xl font-bold ">Can Mobilya</p>
+        <p className="text-orange-500 text-5xl font-bold leading-20 text-shadow mt-16 ml-4">
+          20 gün içerisinde hızlı teslimat.
+        </p>
+        <p className="text-white text-3xl font-bold leading-20 text-shadow mt-6 ml-4">
+          En İyi Hizmet. En İyi Kalite.
+        </p>
+      </div>
+      <div className="flex my-48 mx-auto justify-center ">
         <img
-          src={Data.bodySection.mainWallpaper}
-          className="w-full"
+          src={Data.bodySection.hakkimizdaPhoto}
+          className="max-w-[500px] rounded-3xl shadow-2xl"
           alt="Main Wallpaper"
         />
-        <div style={textContainerStyle}>
-          <p className="text-amber-800 " style={textStyle}>
-            Can Mobilya
+        <div className="ml-32 max-w-[600px] ">
+          <p className="font-playfair text-6xl text-orange-500 my-20">
+            Hakkımızda
+          </p>
+          <p className="font-ubuntu max-w-[500px] text-amber-800">
+            {Data.bodySection.hakkimizdaText}
           </p>
         </div>
       </div>

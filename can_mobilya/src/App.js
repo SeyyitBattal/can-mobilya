@@ -2,9 +2,16 @@
 //ESKİ SİTE: https://sites.google.com/view/can-mobilya/ana-sayfa
 
 /*
+YAZI TİPLERİ
+- Playfair Display
+- Ubuntu
+- Merriweather
+- Quicksand
+*/
+
+/*
 TO DO LIST: 
-- Tailwindten headera navigation bar eklenecek
-- Tıklandığında Whatsapp iletişim açılacak
+- 
 - 
 */
 
