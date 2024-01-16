@@ -16,7 +16,7 @@ export const Header = () => {
               Ana Sayfa
             </a>
             <a href="#" className="mr-16 hover:text-orange-300">
-              Hizmetler
+              Hizmetlerimiz
             </a>
             <a href="#" className="mr-16 hover:text-orange-300">
               Hakkımızda
@@ -24,13 +24,29 @@ export const Header = () => {
             <div className="flex items-center">
               <img
                 src={Data.headerSection.whatsappIcon}
-                className="min-w-4 mr-1"
+                className="min-w-4 mr-1.5"
               />
               <a
                 href="https://api.whatsapp.com/send?phone=905424342149"
                 className="mr-16 hover:text-green-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Whatsapp Hattı
+              </a>
+            </div>
+            <div className="flex items-center">
+              <img
+                src={Data.headerSection.instagramIcon}
+                className="min-w-4 mr-1.5"
+              />
+              <a
+                href="https://www.instagram.com/can.mobilyadekor/"
+                className="mr-16 hover:text-pink-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram Hesabımız
               </a>
             </div>
           </div>

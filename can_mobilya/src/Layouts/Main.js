@@ -28,10 +28,20 @@ export const Main = () => {
           <p className="font-playfair text-6xl text-orange-500 my-20">
             Hakkımızda
           </p>
-          <p className="font-ubuntu max-w-[500px] text-amber-800">
+          <p className="font-ubuntu max-w-[500px] text-amber-800 ">
             {Data.bodySection.hakkimizdaText}
           </p>
+          <p>
+            Yüksek kaliteli ve uygun fiyatlı ürünlerimiz için instagram
+            adresimizi ziyaret edebilirsiniz. [instagram icon]
+          </p>
+          <p>
+            Detaylı bilgi almak için Whatsapp Hattımız: [Whatsapp icon] + numara
+          </p>
         </div>
+      </div>
+      <div>
+        <img src={Data.bodySection.woodenWallpaper} />
       </div>
     </div>
   );
