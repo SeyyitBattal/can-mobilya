@@ -41,7 +41,26 @@ export const Main = () => {
         </div>
       </div>
       <div>
-        <img src={Data.bodySection.woodenWallpaper} />
+        <p className="font-playfair text-6xl text-orange-500 my-20 flex mx-auto justify-center">
+          Hizmetlerimiz
+        </p>
+        <div className="flex flex-wrap justify-center mx-48">
+          {Object.keys(Data.bodySection.hizmetler.Photos).map((serviceKey) => (
+            <div
+              key={serviceKey}
+              className="m-8 hover:scale-110 transform transition-transform"
+            >
+              <img
+                src={Data.bodySection.hizmetler.Photos[serviceKey]}
+                className="max-w-[300px] h-[300px] object-cover rounded-3xl shadow-2xl"
+                alt={serviceKey}
+              />
+              <p className="font-Quicksand text-amber-800 text-center mt-4 text-lg">
+                {Data.bodySection.hizmetler.Texts[serviceKey]}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

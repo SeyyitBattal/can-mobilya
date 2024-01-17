@@ -11,7 +11,7 @@ YAZI TİPLERİ
 
 /*
 TO DO LIST: 
-- 
+- Responsive tasarım
 - 
 */
 
